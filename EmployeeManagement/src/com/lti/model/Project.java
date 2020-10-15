@@ -1,21 +1,21 @@
 package com.lti.model;
 
 public class Project {
-	int projectCode;
-	String projectName;
-	public int getProjectCode() {
-		return projectCode;
+	 private int Id;
+	 private String Name;
+	public int getId() {
+		return Id;
 	}
-	public void setProjectCode(int projectCode) {
-		this.projectCode = projectCode;
+	public void setId(int id) {
+		Id = id;
 	}
-	public String getProjectName() {
-		return projectName;
+	public String getName() {
+		return Name;
 	}
-	public void setProjectName(String projectName) {
-		this.projectName = projectName;
+	public void setName(String name) {
+		Name = name;
 	}
-	
-	
+	 
+	 
 
 }
